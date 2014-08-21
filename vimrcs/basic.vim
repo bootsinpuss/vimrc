@@ -212,10 +212,15 @@ map k gk
 map <silent> <leader><cr> :noh<cr>
 
 " Smart way to move between windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+" map <C-j> <C-W>j
+" map <C-k> <C-W>k
+" map <C-h> <C-W>h
+" map <C-l> <C-W>l
+
+map J <C-W>j
+map K <C-W>k
+map H <C-W>h
+map L <C-W>l
 
 " Close the current buffer
 map <leader>bd :Bclose<cr>
