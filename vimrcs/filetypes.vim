@@ -52,3 +52,12 @@ function! CoffeeScriptFold()
     setl foldlevelstart=1
 endfunction
 au FileType coffee call CoffeeScriptFold()
+
+""""""""""""""""""""""""""""""
+" => Java section
+"""""""""""""""""""""""""""""""
+function! JavaFold()
+    setl foldmethod=syntax
+    setl foldlevelstart=1
+endfunction
+au FileType java call JavaFold()
