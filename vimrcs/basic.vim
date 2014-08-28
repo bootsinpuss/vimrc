@@ -205,11 +205,11 @@ map j gj
 map k gk
 
 " Map <Space> to / (search) and Ctrl-<Space> to ? (backwards search)
-" map <space> /
+map <space> /
 " map <c-space> ?
 
 " Disable highlight when <leader><cr> is pressed
-map <silent> <leader><cr> :noh<cr>
+map <silent> <leader>s :noh<cr>
 
 " Smart way to move between windows
 " map <C-j> <C-W>j
