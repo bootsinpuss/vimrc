@@ -1,6 +1,6 @@
 set nu
 map s :G
-nmap f <Plug>(easymotion-s2)
+nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
 set background=dark
 colorscheme peaksea
