@@ -26,6 +26,10 @@ au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
+au FileType json call JavaScriptFold()
+au FileType json setl fen
+au FileType json setl nocindent
+
 au FileType javascript imap <c-t> AJS.log();<esc>hi
 au FileType javascript imap <c-a> alert();<esc>hi
 

@@ -21,3 +21,11 @@ nmap ˚ <Plug>GitGutterPrevHunk
 " => vim_json plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vim_json_syntax_conceal = 0
+
+let g:mta_filetypes = {
+    \ 'html' : 1,
+    \ 'xhtml' : 1,
+    \ 'xml' : 1,
+    \ 'jinja' : 1,
+    \ 'dustjs' : 1,
+    \}
