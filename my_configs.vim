@@ -18,6 +18,11 @@ nmap ∆ <Plug>GitGutterNextHunk
 nmap ˚ <Plug>GitGutterPrevHunk
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => set dust file to html
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.dust set filetype=html
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim_json plugin
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:vim_json_syntax_conceal = 0
