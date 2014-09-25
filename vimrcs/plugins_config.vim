@@ -25,8 +25,8 @@ map <leader>o :BufExplorer<cr>
 """"""""""""""""""""""""""""""
 " => MRU plugin
 """"""""""""""""""""""""""""""
-let MRU_Max_Entries = 400
-map <leader>f :CtrlPMRU<cr>
+let MRU_Max_Entries = 100
+map <leader>b :CtrlPMRU<cr>
 
 
 """"""""""""""""""""""""""""""
@@ -45,7 +45,7 @@ endif
 let g:ctrlp_working_path_mode = 0
 
 let g:ctrlp_map = '<c-f>'
-map <leader>b :CtrlPBuffer<cr>
+map <leader>f :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'build\|^\.DS_Store\|^\.git\|^\.coffee'

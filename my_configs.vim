@@ -1,4 +1,3 @@
-set nu
 map s :G
 nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
@@ -10,6 +9,11 @@ map T <<
 vnorem // y/<c-r>"<cr>
 nmap <leader>z <C-z>
 imap <leader>j <CR><Esc>O
+
+let g:airline#extensions#tabline#enabled = 1
+
+let g:indentLine_color_term = 239
+let g:indentLine_char = '︙'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => gitgutter config
