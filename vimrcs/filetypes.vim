@@ -20,9 +20,10 @@ au FileType python map <buffer> <leader>D ?def
 
 
 """"""""""""""""""""""""""""""
-" => JavaScript section
+" => Indent section
 """""""""""""""""""""""""""""""
 au FileType html setl foldmethod=indent
+au FileType python setl foldmethod=indent
 
 """"""""""""""""""""""""""""""
 " => JavaScript section

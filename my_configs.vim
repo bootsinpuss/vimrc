@@ -2,7 +2,7 @@ map s :G
 nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
 set background=dark
-colorscheme peaksea
+colorscheme inkpot
 inoremap <Tab> <C-p>
 map t >>
 map T <<
@@ -13,7 +13,7 @@ imap <leader>j <CR><Esc>O
 let g:airline#extensions#tabline#enabled = 1
 
 let g:indentLine_color_term = 239
-let g:indentLine_char = '︙'
+let g:indentLine_char = '┆'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => gitgutter config
