@@ -1,25 +1,26 @@
-map s :G
+map s :Ag
 nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
 set background=dark
 colorscheme inkpot
 inoremap <Tab> <C-p>
-map t >>
-map T <<
 vnorem // y/<c-r>"<cr>
 nmap <leader>z <C-z>
 imap <leader>j <CR><Esc>O
 
-let g:airline#extensions#tabline#enabled = 1
 
-let g:indentLine_color_term = 239
-let g:indentLine_char = '┆'
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => gitgutter config
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nmap ∆ <Plug>GitGutterNextHunk
-nmap ˚ <Plug>GitGutterPrevHunk
+if has("gui_running")
+    colorscheme peaksea
+    set guioptions=aiAe
+    set gfn=Source\ Code\ Pro\ for\ Powerline:h13,Menlo:h13
+else
+    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+    " => enable tabline
+    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+    let g:airline#extensions#tabline#enabled = 1
+    let g:indentLine_color_term = 239
+    let g:indentLine_char = '┆'
+endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => set dust file to html
