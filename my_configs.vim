@@ -10,7 +10,8 @@ imap <leader>j <CR><Esc>O
 
 
 if has("gui_running")
-    colorscheme peaksea
+    colorscheme molokai
+    let g:molokai_original = 1
     set guioptions=aiAe
     set gfn=Source\ Code\ Pro\ for\ Powerline:h13,Menlo:h13
 else
