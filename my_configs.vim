@@ -10,18 +10,24 @@ imap <leader>j <CR><Esc>O
 
 
 if has("gui_running")
+    set nu
     colorscheme molokai
     let g:molokai_original = 1
     set guioptions=aiAe
     set gfn=Source\ Code\ Pro\ for\ Powerline:h13,Menlo:h13
-else
-    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    " => enable tabline
-    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-    let g:airline#extensions#tabline#enabled = 1
-    let g:indentLine_color_term = 239
-    let g:indentLine_char = '┆'
 endif
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => enable tabline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline#extensions#tabline#enabled = 1
+let g:indentLine_color_term = 239
+let g:indentLine_char = '┆'
+" Move to the next buffer
+nmap t :bnext<CR>
+
+" Move to the previous buffer
+nmap T :bprevious<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => set dust file to html
