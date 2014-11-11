@@ -15,6 +15,7 @@ if has("gui_running")
     let g:molokai_original = 1
     set guioptions=aiAe
     set gfn=Source\ Code\ Pro\ for\ Powerline:h13,Menlo:h13
+    let g:airline_powerline_fonts = 1
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

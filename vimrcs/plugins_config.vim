@@ -67,9 +67,9 @@ set grepprg=/bin/grep\ -nH
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>nn :NERDTreeToggle<cr>
-map <leader>nb :NERDTreeFromBookmark 
-map <leader>nf :NERDTreeFind<cr>
+map <leader>n :NERDTreeToggle<cr>
+" map <leader>nb :NERDTreeFromBookmark 
+" map <leader>nf :NERDTreeFind<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => surround.vim config
@@ -83,7 +83,7 @@ au FileType mako vmap Si S"i${ _(<esc>2f"a) }<esc>
 " => vim-airline config (force color)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline_theme="murmur"
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vimroom
