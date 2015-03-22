@@ -2,8 +2,8 @@ map s :Ag
 nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
 set background=dark
-colorscheme inkpot
-inoremap <Tab> <C-p>
+set nu
+colorscheme desert
 vnorem // y/<c-r>"<cr>
 nmap <leader>z <C-z>
 imap <leader>j <CR><Esc>O
