@@ -1,5 +1,4 @@
 map s :Ag
-nmap f <Plug>(easymotion-s)
 set foldlevelstart=20
 set background=dark
 set nu
@@ -25,10 +24,10 @@ let g:airline#extensions#tabline#enabled = 1
 let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 " Move to the next buffer
-nmap t :bnext<CR>
+nmap K :bnext<CR>
 
 " Move to the previous buffer
-nmap T :bprevious<CR>
+nmap J :bprevious<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => set dust file to html
